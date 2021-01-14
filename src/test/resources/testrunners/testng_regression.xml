@@ -17,14 +17,22 @@
 	</listeners>
 	
 
-	<test name="LoginPage Test_FF_80">
+<!-- 	<test name="LoginPage Test_FF_80">
 		<parameter name="browser" value="firefox" />
 		<parameter name="version" value="80" />
 		<classes>
 			<class name="com.qa.hubspot.tests.LoginPageTest" />
 		</classes>
-	</test>
+	</test> -->
 
+
+	<test name="LoginPage Test_chrome_87">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="87" />
+		<classes>
+			<class name="com.qa.hubspot.tests.LoginPageTest" />
+		</classes>
+	</test>
 
 	<test name="AccountsPage Test">
 		<parameter name="browser" value="chrome" />

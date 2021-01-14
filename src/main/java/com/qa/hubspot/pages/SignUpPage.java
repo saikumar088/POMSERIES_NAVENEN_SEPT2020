@@ -16,5 +16,10 @@ public class SignUpPage {
 		System.out.println("click on sign up");
 	}
 	
+	
+	public void clickSignup1() {
+		System.out.println("click on sign up1");
+	}
+	
 
 }

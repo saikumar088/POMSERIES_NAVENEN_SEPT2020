@@ -7,6 +7,11 @@ public class AddToCartPage {
 	}
 	
 	
+	public void cart2() {
+		System.out.println("adding to cart2");
+	}
+	
+	
 	
 
 }
